@@ -32,3 +32,7 @@ header .row {
 .box > img {
     width: 100%;
 }
+
+#third-section {
+    background-color: #1abc9c;
+}
