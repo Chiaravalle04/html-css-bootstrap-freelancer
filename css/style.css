@@ -1,8 +1,14 @@
+/* Regole Generali */
+ul {
+    list-style: none;
+}
+
 /* Style */
 
 /* Header */
 header {
     height: 80px;
+    background-color: #2c3e50;
 }
 
 header .row {
