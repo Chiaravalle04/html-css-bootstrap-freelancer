@@ -29,6 +29,6 @@ header .row {
     padding-top: 4px;
 }
 
-.box {
-    background-color: aqua;
+.box > img {
+    width: 100%;
 }
