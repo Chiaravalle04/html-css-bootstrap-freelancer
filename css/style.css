@@ -16,6 +16,19 @@ header .row {
 }
 
 /* Main */
+#first-section {
+    background-color: #1abc9c;
+}
+
+#first-section img {
+    width: 250px;
+    height: 250px;
+}
+
+.p-top {
+    padding-top: 4px;
+}
+
 .box {
     background-color: aqua;
 }
