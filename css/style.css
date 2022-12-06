@@ -36,3 +36,8 @@ header .row {
 #third-section {
     background-color: #1abc9c;
 }
+
+input[type=submit] {
+    background-color: #1abc9c;
+    color: #fff;
+}
