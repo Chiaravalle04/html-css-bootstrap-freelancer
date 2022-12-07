@@ -3,6 +3,10 @@ ul {
     list-style: none;
 }
 
+.p-top {
+    padding-top: 4px;
+}
+
 /* Style */
 
 /* Header */
@@ -32,6 +36,7 @@ nav a:hover {
 }
 
 /* Main */
+/* First Section */
 #first-section {
     background-color: #1abc9c;
 }
@@ -41,13 +46,32 @@ nav a:hover {
     height: 250px;
 }
 
-.p-top {
-    padding-top: 4px;
-}
-
+/* Second Section */
 .box > img {
     width: 100%;
 }
+
+.my-overlay {
+    display: none !important;
+    background-color: rgba(26, 188, 156, 0.5);
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.box:hover .my-overlay {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Third Section */
 
 #third-section {
     background-color: #1abc9c;
