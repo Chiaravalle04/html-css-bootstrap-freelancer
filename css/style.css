@@ -72,11 +72,16 @@ nav a:hover {
 }
 
 /* Third Section */
-
 #third-section {
     background-color: #1abc9c;
 }
 
+.l_hover > a:hover {
+    color: #1abc9c !important;
+    background-color: #fff !important;
+}
+
+/* Last Section */
 input[type=submit] {
     background-color: #1abc9c;
     color: #fff;
